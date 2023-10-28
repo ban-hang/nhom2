@@ -1,0 +1,118 @@
+/*reset css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*nav-bar*/
+.navbar-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	background-color:#89CFF0;
+	padding: 15px 0 10px 0;
+	color: #fff;
+}
+
+.navbar-list img{
+	width: 270px;
+}
+
+.navbar-list a{
+	color: inherit;
+	font-size: 15px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.navbar-list input{
+	border: none;
+	border-radius: 5px;
+	padding: 4px 9px;
+}
+
+.navbar-list .srch{
+	margin-bottom: 0;
+	margin-left: 3px;
+	font-size: 20px;
+}
+
+.navbar-list a:hover{
+	color: blue;
+}
+/*main*/
+main{
+	display: flex;
+	margin: 20px auto;
+	width: 90%;
+	padding: 12px;
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+i{
+	padding-right: 10px;
+}
+
+aside a{
+	text-decoration: none;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.product img{
+	width: 100px;
+	height: 70px;
+}
+
+section{
+	width: 100%;
+}
+
+.product{
+	display: flex;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+	padding: 10px 0 10px 20px;
+	border-radius: 10px;
+}
+
+.product .info{
+	margin-left: 20px;
+}
+
+.product .name{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.product .confirm{
+	margin-left: 300px;
+	color: green;
+}
+
+aside .active{
+	color: red;
+}
+
+aside .link:hover{
+	color: blue;
+}
+/*footer*/
+footer{
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #F8CD26;
+}
